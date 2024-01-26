@@ -8,17 +8,21 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="/action_page.php">
-		<label for="First-name">First Name:</label>
-		<input type="text" id="First-name" name="First-name"><BR>
-		<label for="Last-name">Last Name:</label>
-		<input type="text" id="Last-name" name="Last Name"><BR>
-		<label for="Phone-number">Phone Number:</label>
-		<input type="text" id="Phone-number" name="Phone Number"><BR>
-		<label for="Email">Email ID:</label>
-		<input type="text" id="Email" name="Email ID"><BR>
-		<button onclick="submitForm()">submit</button>
-	</form>
+<form id="loginForm">
+    <label for="firstName">First Name:</label>
+    <input type="john" id="firstName" name="First Name" required><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="Doe" id="lastName" name="Last Name" required><br>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="1234567890" id="phoneNumber" name="Phone Number" required><br>
+
+    <label for="email">Email ID:</label>
+    <input type="john.doe@example.com" id="email" name="Email ID" required><br>
+
+    <button type="button" onclick="submitForm()">Submit</button>
+</form>
     <script type="text/javascript" src="./script.js">
 </script>
 

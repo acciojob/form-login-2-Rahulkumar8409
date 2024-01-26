@@ -1,12 +1,13 @@
-function submitForm() {
-	let First=document.getElementById("First-name").value;
-	let Last=document.getElementById("Last-name").value;
-	let Phone=document.getElementById("Phone-number").value;
-	let Email=document.getElementById("Email").value;
+  function submitForm() {
+        var firstName = document.getElementById("firstName").value;
+        var lastName = document.getElementById("lastName").value;
+        var phoneNumber = document.getElementById("phoneNumber").value;
+        var email = document.getElementById("email").value;
 
-	  var result="First Name:"+First+"\n"
-    +"Last Name:"+Last+"\n"
-    +"Phone Number:"+Phone+"\n"
-    +"Email ID:"+Email+"\n"
-	alert(result);
-		  }
+        var result = "First Name: " + firstName + "\n" +
+                     "Last Name: " + lastName + "\n" +
+                     "Phone Number: " + phoneNumber + "\n" +
+                     "Email ID: " + email;
+
+        alert(result);
+    }
